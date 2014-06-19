@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8CC8EF73-DF2F-43C5-BA9E-649471A06E97</string>
+	<key>IDESourceControlProjectName</key>
+	<string>URLImageScrapper</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EDB6F1F5-AAB2-4F7D-8BB7-0D05523EE1BF</key>
+		<string>https://github.com/jameshoongo/URLImageScrapper.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>URLImageScrapper.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EDB6F1F5-AAB2-4F7D-8BB7-0D05523EE1BF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jameshoongo/URLImageScrapper.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EDB6F1F5-AAB2-4F7D-8BB7-0D05523EE1BF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EDB6F1F5-AAB2-4F7D-8BB7-0D05523EE1BF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>URLImageScrapper</string>
+		</dict>
+	</array>
+</dict>
+</plist>
