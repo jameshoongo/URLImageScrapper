@@ -14,9 +14,11 @@
 
 - (BOOL)isValidURL
 {
-    NSString *urlRegEx = @"(http|https)://((\\w)*|([0-9]*)|([-|_])*)+([\\.|/]((\\w)*|([0-9]*)|([-|_])*))+";
-    NSPredicate *urlTest = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", urlRegEx];
-    return [urlTest evaluateWithObject:self];    
+    BOOL isValidURL = NO;
+    NSURL *candidateURL = [NSURL URLWithString:self];
+    if (candidateURL && candidateURL.scheme && candidateURL.host)
+        isValidURL = YES;
+    return isValidURL;
 }
 
 - (NSString*)checkHTTPPrefix

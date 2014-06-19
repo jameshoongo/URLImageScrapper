@@ -49,6 +49,7 @@
     if (_detailItem != newDetailItem) {
         _detailItem = newDetailItem;
         self.title = [self.detailItem description];
+        [self.thisWebView stopLoading];
         [self.thisWebView loadHTMLString:@"" baseURL:nil];
         if(JGIsDeviceiPad())
             [self configureView];
